@@ -1,0 +1,162 @@
+/*
+
+Luc van Loon
+26 feb 2016
+www.luc.am
+
+*/
+
+
+/* Basic styling */
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+    background-color:#ffffff;
+    line-height:1.5;
+}
+
+h1 {
+    font-size:20px;
+    text-transform: none;
+    font-weight: 300;
+    letter-spacing:3px;
+}
+
+p {
+    font-size:14px;
+    text-transform: none;
+    font-weight: 300;
+    letter-spacing:3px;
+}
+
+.center {
+    text-align:center;
+}
+
+.wrapper {
+    position:relative;
+    height:1465px;
+    width:1200px;
+}
+
+/* Per screen background images */
+.scherm0 {
+    background-image: url("../img/0.jpg");
+}
+
+.scherm3 {
+    background-image: url("../img/3.jpg");
+}
+
+.scherm4 {
+    background-image: url("../img/4.jpg");
+}
+
+.scherm5 {
+    background-image: url("../img/5.jpg");
+}
+
+.scherm6 {
+    background-image: url("../img/6.jpg");
+}
+
+.scherm7 {
+    background-image: url("../img/7.jpg");
+}
+
+.scherm8 {
+    background-image: url("../img/8.jpg");
+}
+
+.scherm9 {
+    background-image: url("../img/9.jpg");
+}
+
+.scherm10 {
+    background-image: url("../img/10.jpg");
+}
+
+.scherm11 {
+    background-image: url("../img/11.jpg");
+}
+
+.scherm12 {
+    background-image: url("../img/12.jpg");
+}
+
+.scherm13 {
+    background-image: url("../img/13.jpg");
+}
+
+.scherm14 {
+    background-image: url("../img/14.jpg");
+}
+
+.scherm15 {
+    background-image: url("../img/entertainment.jpg");
+}
+
+
+
+
+/* Grid layout */
+.statusbar {
+    height:43px;
+    width:1200px;
+}
+
+.messagebar {
+    height:330px;
+    width:1200px;
+}
+
+.searchbar {
+    height:80px;
+    width:1200px;
+}
+
+.map {
+    width:1000px;
+    float:right;
+    height:940px;
+}
+
+.menuitem1 {
+    width:200px;
+    height:192px;
+}
+
+.menuitem2 {
+    width:200px;
+    height:192px;
+}
+
+.menuitem3 {
+    width:200px;
+    height:192px;
+}
+
+.menuitem4 {
+    width:200px;
+    height:192px;
+}
+
+.menuitem5 {
+    width:200px;
+    height:168px; /* Belangrijk om de tabjes niet van de pagina te laten vallen */
+}
+
+.tabright {
+    float:right;
+    width:475px;
+    height:75px;
+}
+
+.tableft {
+    width:675px;
+    height:75px;
+}

@@ -1,0 +1,111 @@
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+    background-color:#ffffff;
+    line-height:1.5;
+}
+
+h1 {
+    font-size:20px;
+    text-transform: none;
+    font-weight: 300;
+    letter-spacing:3px;
+}
+
+p {
+    font-size:14px;
+    text-transform: none;
+    font-weight: 300;
+    letter-spacing:3px;
+}
+
+.white {
+    color: #fff;
+}
+
+.center {
+    text-align:center;
+}
+
+.wrapper {
+    position:relative;
+    height:1465px;
+    width:1200px;
+
+/*  Dit is een inside border.
+    -webkit-box-shadow:inset 0px 0px 0px 10px #fff;
+    -moz-box-shadow:inset 0px 0px 0px 10px #fff;
+    box-shadow:inset 0px 0px 0px 10px #fff;
+*/
+
+}
+
+.content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Screens background images */
+.scherm2 {
+    background-image: url("../img/2.jpg");
+}
+
+.scherm3 {
+    background-image: url("../img/3.jpg");
+}
+
+.scherm4 {
+    background-image: url("../img/4.jpg");
+}
+
+.scherm5 {
+    background-image: url("../img/5.jpg");
+}
+
+.scherm6 {
+    background-image: url("../img/6.jpg");
+}
+
+
+/* Grid layout */
+.statusbar {
+    height:43px;
+    width:1200px;
+}
+
+.messagebar {
+    height:330px;
+    width:1200px;
+}
+
+.searchbar {
+    height:80px;
+    width:1200px;
+}
+
+.map {
+    width:1000px;
+    float:right;
+    height:940px;
+}
+
+.menu {
+    width:200px;
+    height:940px;
+}
+
+.tabright {
+    float:right;
+    width:475px;
+    height:75px;
+}
+
+.tableft {
+    width:675px;
+    height:75px;
+}
